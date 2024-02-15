@@ -1,0 +1,224 @@
+header {
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 50px;
+}
+
+.imgbg {
+  padding-top: 5%;
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgbg .photo {
+  margin: auto;
+}
+.imgbg .photo img {
+  width: 355px;
+  height: 350px;
+}
+
+.menu {
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 50px;
+  margin: 0;
+  list-style-type: none;
+}
+.menu :hover {
+  transition: 1s;
+  background-color: rgba(85, 187, 228, 0.763);
+}
+.menu .menu_link {
+  color: rgba(85, 187, 228, 0.763);
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: rgba(255, 251, 251, 0);
+}
+.menu .menu_item {
+  padding-right: 45px;
+  padding-left: 45px;
+  text-align: center;
+}
+.menu .menu_item :hover {
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+}
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.reasons .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 35px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+.reasons .reasons_block .reasons_descr {
+  width: 343px;
+}
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+.reasons .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.reasons2 {
+  padding: 71px 0 65px 0;
+}
+
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+.reasons2 .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.reasons2 .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 35px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+.reasons2 .reasons_block .reasons_descr {
+  width: 343px;
+}
+.reasons2 .reasons_block .reasons_descr .reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+.reasons2 .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.reasons3 {
+  padding: 71px 0 65px 0;
+}
+
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+.reasons3 .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.reasons3 .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 35px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+.reasons3 .reasons_block .reasons_descr {
+  width: 343px;
+}
+.reasons3 .reasons_block .reasons_descr .reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+.reasons3 .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}/*# sourceMappingURL=style.css.map */
